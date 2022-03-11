@@ -17,7 +17,7 @@ const LandingPage = () => {
             <h1 data-aos='left-fade-animation' className="intro">Hey! This is Chintan</h1>
             <div className="line-container">
                 <div data-aos="right-fade-animation" className="line"></div>
-                <p data-aos="fade-up" className="tagline">Web Designer</p>
+                <p data-aos="fade-up" className="tagline">Web Developer</p>
             </div>
             <SocialMedia />
             <img src={dots} alt="dots" className="dots" draggable="false" loading="lazy" />

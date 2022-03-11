@@ -1,0 +1,122 @@
+.about {
+  height: auto;
+  padding-bottom: 100px;
+  background-color: #fff;
+  text-align: center;
+}
+.bdots {
+  height: 150px;
+  float: right;
+}
+.l-about {
+  font-size: 12em;
+  color: rgba(153, 153, 153, 0.1);
+  align-self: center;
+  font-family: "Poppins";
+  font-weight: 900;
+}
+.about_box {
+  margin-left: 130px;
+  margin-top: -110px;
+  text-align: left;
+}
+.about_box > h2 {
+  font-weight: 900;
+}
+.about_box > p {
+  text-align: justify;
+  margin: 30px 0px;
+  color: #666;
+}
+.dbtn {
+  width: 150px;
+  height: auto;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #5242e6;
+  color: #fff;
+  background-color: #5242e6;
+  transition: 0.3s;
+}
+.dbtn:hover {
+  color: #5242e6;
+  background-color: #fff;
+}
+
+.a-img {
+  width: 400px;
+  height: 400px;
+  float: right;
+  margin-top: -330px;
+  margin-right: 140px;
+  background-image: url("../../assets/my/IMG2.jpg");
+  background-position: center;
+  background-size: cover;
+  opacity: 0.99;
+}
+.f-row {
+  margin-left: 130px;
+  margin-top: 200px;
+  width: 79%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+}
+.f-box {
+  width: 31%;
+  height: 175px;
+  border: 1px solid #e2e2e2;
+  padding: 40px;
+}
+.f-box:hover {
+  border: 1px solid #5242e6;
+}
+
+.f-box > h3 {
+  color: #615cfd;
+  font-size: 42px;
+  font-family: "Poppins";
+}
+.f-box > p {
+  color: #666;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 960px) {
+  .bdots {
+    display: none;
+  }
+  .l-about {
+    font-size: 6em;
+  }
+  .about_box {
+    margin-left: 0;
+    margin-top: -68px;
+    margin-left: 8%;
+    width: 84%;
+  }
+  .about_box > p {
+    font-size: 12px;
+  }
+  .a-img {
+    width: 86%;
+    height: 270px;
+    margin-top: 20px;
+    margin-right: 7%;
+  }
+  .f-row {
+    width: 86%;
+    margin-left: 7%;
+    margin-top: 350px;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .f-box {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .f-box:last-child {
+    margin-bottom: 0;
+  }
+}

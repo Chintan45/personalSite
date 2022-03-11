@@ -1,0 +1,98 @@
+.footerbg {
+  height: auto;
+  background-color: #001d38;
+  color: aliceblue;
+  padding-top: 150px;
+}
+.footerbg > .container > .row {
+  margin-top: 0;
+}
+.f-header {
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+}
+.f-text {
+  text-align: center;
+  font-size: 14px;
+}
+.f-btn {
+  width: auto;
+  height: auto;
+  margin: 30px;
+  padding: 14px 30px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #5242e6;
+  transition: 0.3s;
+  border: none;
+}
+.f-btn:hover {
+  color: #5242e6;
+  background: transparent;
+  border: 1px solid #5242e6;
+}
+.f-footer {
+  padding: 60px 0px;
+  font-size: 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.f-menu > ul {
+  padding: 0;
+}
+.f-menu > ul > .li {
+  display: inline-block;
+  margin-right: 40px;
+  cursor: pointer;
+}
+.f-footer > div > .section {
+  margin-right: 0;
+}
+.f-footer > div > .section > ul {
+  padding-left: 0;
+}
+.f-footer > div > .section > ul > li {
+  display: inline-block;
+  font-size: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  margin-inline: 10px;
+}
+.f-footer > div > .section > ul > li > .sbg {
+  width: 28px;
+  height: 28px;
+  padding: 4px;
+  vertical-align: center;
+}
+.f-footer > div > .section > ul > li > .sbg:hover {
+  background: #5242e6;
+}
+
+@media screen and (max-width: 960px) {
+  .f-menu > ul > .li {
+    margin-right: 20px;
+  }
+  .f-footer {
+    padding: 30px 0px;
+  }
+  .f-footer > div > .section {
+    width: 50%;
+    display: block;
+    margin-left: 0px;
+    margin-right: 0;
+    padding: 0;
+    float: left;
+  }
+  .f-footer > div > .section > ul {
+    margin: 0;
+    padding: 0;
+  }
+  .f-footer > div > .section > ul > li {
+    margin-inline: 5px;
+  }
+  .f-header {
+    width: 100%;
+    font-size: 18px;
+  }
+}

@@ -19,15 +19,15 @@ const About = () => {
                 <div className="col-xl-5 col-md-6 about_box">
                     <h2 data-aos="fade-up" data-aos-once="true" data-aos-delay="100">About me</h2>
                     <p data-aos="fade-up" data-aos-once="true" data-aos-delay="200">Hard-working computer science student. Seeking a continuous learning workflow in multitasking
-                    environment which deals with current Technology where I can improve my technical and
-                    interpersonal skills for my personal growth as well as the growth of company.
+                        environment which deals with current Technology where I can improve my technical and
+                        interpersonal skills for my personal growth as well as the growth of company.
                     </p>
                     <a href="https://my-r-portfolio.s3.eu-west-3.amazonaws.com/CV.pdf"
-                        rel="noreferrer"
+                        rel="noopener noreferrer"
                         data-aos="fade-up"
                         data-aos-once="true"
                         data-aos-delay="300"
-                        download
+                        target="_blank"
                     >
                         <button className="dbtn" data-aos="fade-up"
                             data-aos-once="true"

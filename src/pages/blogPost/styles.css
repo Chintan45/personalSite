@@ -1,0 +1,13 @@
+.categoryCardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 10px;
+    width: 70%;
+    max-width: 1080px;
+    margin: 10px auto;
+}
+.link{
+    font-weight: 700;
+    color: black;
+}

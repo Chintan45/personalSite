@@ -7,6 +7,7 @@
     rgba(92, 80, 239, 1) 00%,
     rgba(181, 87, 236, 1) 100%
   );
+  overflow-y: hidden;
 }
 
 .pic {
@@ -150,18 +151,24 @@ a:hover {
   opacity: 0;
   transform: translateX(100px);
   transition-property: transform, opacity;
+  -webkit-transform: translateX(100px);
+  -webkit-transition-property: transform, opacity;
 }
 [data-aos="left-fade-animation"].aos-animate {
   opacity: 0.9;
   transform: translateX(0);
+  -webkit-transform: translateX(0);
 }
 
 [data-aos="right-fade-animation"] {
   opacity: 0;
   transform: translateX(-100px);
   transition-property: transform, opacity;
+  -webkit-transform: translateX(-100px);
+  -webkit-transition-property: transform, opacity;
 }
 [data-aos="right-fade-animation"].aos-animate {
   opacity: 0.9;
   transform: translateX(0);
+  -webkit-transform: translateX(0);
 }

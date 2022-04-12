@@ -1,0 +1,41 @@
+.categoryCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 15px;
+  border: 1px solid black;
+  border-radius: 0;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  background-color: white;
+  font-size: 20px;
+  width: 200px;
+  max-width: 300px;
+}
+
+.categoryCard:hover {
+  -webkit-box-shadow: -10px 10px 0 -2px #323234;
+          box-shadow: -10px 10px 0 -2px #323234;
+  -webkit-transform: translate(5px, -1px);
+          transform: translate(5px, -1px);
+}
+
+.card_link, .card_link:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.largeCard {
+  height: 400px;
+}
+
+.smallCard {
+  height: 180px;
+}
+/*# sourceMappingURL=postcard.styles.css.map */

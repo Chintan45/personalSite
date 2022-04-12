@@ -1,0 +1,38 @@
+
+.categoryCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin: 15px;
+    border: 1px solid black;
+    border-radius: 0;
+    
+    transition: all 0.2s ease-in-out;
+    background-color: white;
+    font-size: 20px;
+    width: 200px;
+    max-width: 300px; 
+
+    &:hover{
+      box-shadow: -10px 10px 0 -2px #323234;
+      transform: translate(5px, -1px);
+    }
+}
+  
+  
+  
+.card_link,  .card_link:hover {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .largeCard {
+    height: 400px;
+  }
+  .smallCard {
+    height: 180px;
+}
+  
+  
+  

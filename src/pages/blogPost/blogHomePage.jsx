@@ -5,19 +5,19 @@ import "./styles.css";
 import NavBar from "../../components/Navbar/Navbar";
 import Loading from "../loading.jsx";
 
-import { capitalize } from "../../utils/utils";
+import { capitalize, refeactorUrlPath } from "../../utils/utils";
 import { API } from "../../config/api";
 import CategoryCard from "../../components/Card/PostCard.jsx";
 
 const BlogHomePage = () => {
-  const baseUrl = API + "/blog/categories";
+  const baseUrl = API + "/categories";
   const [loading, setLoading] = React.useState(true);
   const [data, setData] = React.useState(null);
   const [categories, setCategories] = React.useState([]);
 
   const getData = () => {
     axios.get(baseUrl).then((response) => {
-      const tempData = response.data;
+      const tempData = response.data.data.categories;
       setData(tempData);
     });
   };
@@ -39,7 +39,7 @@ const BlogHomePage = () => {
       <NavBar />
       <div className="categoryCardContainer">
         {categories.map((cat, index) => {
-          const path = `/blog/${cat}`;
+          const path = `/blog/${refeactorUrlPath(cat)}`;
           return (
             <CategoryCard path={path} key={index}>
               {capitalize(cat)}

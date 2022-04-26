@@ -15,18 +15,18 @@ const BlogHomePage = () => {
   const [data, setData] = React.useState(null);
   const [categories, setCategories] = React.useState([]);
 
-  const getData = () => {
+  const getData = React.useCallback(() => {
     axios.get(baseUrl).then((response) => {
       const tempData = response.data.data.categories;
       setData(tempData);
     });
-  };
+  }, [baseUrl]);
 
   useEffect(() => {
     setLoading(true);
     getData();
     setLoading(false);
-  }, []);
+  }, [getData]);
   useEffect(() => {
     if (data) {
       setCategories(data?.map((item) => item.category));

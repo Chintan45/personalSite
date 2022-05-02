@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useCallback, useEffect } from "react";
 import { animateScroll as scroll } from "react-scroll";
 
 import About from "../components/Aboutme/About";
@@ -10,11 +10,11 @@ import Service from "../components/Services/Service";
 export default function HomePage() {
   var cls;
 
-  const handleScroll = () => {
+  const handleScroll = useCallback(() => {
     var height = document.documentElement.scrollTop;
     height > 400 ? (cls = "scroller") : (cls = "scroller-off");
     document.getElementById("tbtn").className = cls;
-  };
+  }, []);
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll, { passive: true });

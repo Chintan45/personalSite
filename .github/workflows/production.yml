@@ -26,8 +26,8 @@ jobs:
       - name: yarn build
         env:
           CI: false
-          REACT_APP_BASE_URL: ${{ secrets.REACT_APP_BASE_URL }}
-          REACT_APP_BASE_API: ${{ secrets.REACT_APP_BASE_API }}
+          REACT_APP_DATA_API: ${{ secrets.REACT_APP_DATA_API }}
+          REACT_APP_CONTENT_API: ${{ secrets.REACT_APP_CONTENT_API }}
         run: yarn build --if-present
 
       - name: Deploy to netlify

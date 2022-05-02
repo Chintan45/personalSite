@@ -8,8 +8,7 @@ import { API } from "./config/api";
 const Data = () => {
 
     const getDATA = async () => {
-        const baseURL = process.env.REACT_APP_BASE_URL;
-        // const tarURL = process.env.REACT_APP_TARGET_URL;
+        const baseURL = process.env.REACT_APP_DATA_API;
         const tarURL = API + '/data';
         const res = await axios.get(baseURL)
 

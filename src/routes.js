@@ -31,9 +31,9 @@ const AppRouter = () => {
         }
     }, [data])
 
-    if (!categories) {
-        return <Loading />
-    }
+    // if (!categories) {
+    //     return <Loading />
+    // }
     return (
         <BrowserRouter>
             <Routes>

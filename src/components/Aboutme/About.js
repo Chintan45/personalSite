@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { AboutItems } from './AboutItems'
+// import { AboutItems } from './AboutItems'
 import bdots from '../../assets/color_grid.png';
 import AOS from 'aos';
 

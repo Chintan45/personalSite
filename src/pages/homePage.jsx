@@ -5,7 +5,8 @@ import About from "../components/Aboutme/About";
 import { Footer } from "../components/Footer/Footer";
 import LandingPage from "../components/LandingPage/LandingPage";
 import Portfolios from "../components/Portfolios/Portfolios";
-import Service from "../components/Services/Service";
+// import Service from "../components/Services/Service";
+import Skills from "../components/Skills/Skills";
 
 export default function HomePage() {
   var cls;
@@ -26,9 +27,10 @@ export default function HomePage() {
   return (
     <div>
       <LandingPage />
-      <Service />
-      <Portfolios />
       <About />
+      <Skills />
+      {/* <Service /> */}
+      <Portfolios />
       <Footer />
       <div className={cls} id="tbtn" onClick={() => scroll.scrollToTop()}>
         {" "}

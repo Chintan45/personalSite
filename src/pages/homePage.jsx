@@ -4,7 +4,8 @@ import { animateScroll as scroll } from "react-scroll";
 import About from "../components/Aboutme/About";
 import { Footer } from "../components/Footer/Footer";
 import LandingPage from "../components/LandingPage/LandingPage";
-import Portfolios from "../components/Portfolios/Portfolios";
+// import Portfolios from "../components/Portfolios/Portfolios";
+import Projects from "../components/Projects/Projects";
 // import Service from "../components/Services/Service";
 import Skills from "../components/Skills/Skills";
 
@@ -30,7 +31,9 @@ export default function HomePage() {
       <About />
       <Skills />
       {/* <Service /> */}
-      <Portfolios />
+      <Projects />
+      {/* <Portfolios /> */}
+
       <Footer />
       <div className={cls} id="tbtn" onClick={() => scroll.scrollToTop()}>
         {" "}

@@ -22,7 +22,7 @@ const About = () => {
                         environment which deals with current Technology where I can improve my technical and
                         interpersonal skills for my personal growth as well as the growth of company.
                     </p>
-                    <a href="https://my-r-portfolio.s3.eu-west-3.amazonaws.com/CV.pdf"
+                    <a href="https://drive.google.com/file/d/1iSB9_sfUFc1xCvIJf1ViRqWp0l1r4vOf/view?usp=sharing"
                         rel="noopener noreferrer"
                         data-aos="fade-up"
                         data-aos-once="true"
@@ -38,7 +38,7 @@ const About = () => {
                 </div>
                 <div className="col-xl-3 col-md-3 a-img" data-aos="fade-left" data-aos-delay="100" data-aos-once="true"></div>
             </div>
-            <div className="container">
+            {/* <div className="container">
                 <div className="f-row">
                     {AboutItems.map((items, index) => {
                         return (
@@ -49,7 +49,7 @@ const About = () => {
                         );
                     })}
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 }

@@ -2,6 +2,7 @@ import React, { useCallback, useEffect } from "react";
 import { animateScroll as scroll } from "react-scroll";
 
 import About from "../components/Aboutme/About";
+import Contact from "../components/Contact/Contact";
 import { Footer } from "../components/Footer/Footer";
 import LandingPage from "../components/LandingPage/LandingPage";
 // import Portfolios from "../components/Portfolios/Portfolios";
@@ -33,7 +34,7 @@ export default function HomePage() {
       {/* <Service /> */}
       <Projects />
       {/* <Portfolios /> */}
-
+      <Contact />
       <Footer />
       <div className={cls} id="tbtn" onClick={() => scroll.scrollToTop()}>
         {" "}

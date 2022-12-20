@@ -1,0 +1,41 @@
+.contact{
+    text-align: center;
+    padding: 50px;;
+}
+
+.contact > h2 {
+    font-weight: bold;
+    font-size: 32px;
+}
+.contact > p {
+    color: #666;
+}
+
+.contact-box-container{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+
+.colum1, .colum2{
+    border: 1px solid;
+    width: 100%;
+}
+.c-row{
+    display: flex;
+    flex-direction: row;
+}
+.c-row > div > i{
+    width: 32px;
+    height: 32px;
+    padding: 8px;
+}
+@media screen and (max-width: 960px) {
+    .contact{
+        padding: 50px 0;
+    }
+    .contact-box-container{
+    flex-direction: column;
+    margin: 0;
+    }
+}

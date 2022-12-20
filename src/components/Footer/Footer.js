@@ -5,15 +5,15 @@ import './Footer.css';
 
 export const Footer = () => {
     return (
-        <div className="footerbg" id="contact">
+        <div className="footerbg" id="footer">
             <div className="container">
-                <div className="row">
+                {/* <div className="row">
                     <h1 className="f-header">Now that you know what I can do for you <br />
                         Let’s discuss your Project.</h1>
                     <button className="f-btn">
                         <a href="mailto:chintandobaria18@gmail.com">Let's Talk</a>
                     </button>
-                </div>
+                </div> */}
                 <div className="row f-footer">
                     <div className="col-xl-6 col-md-6">
                         <div className="f-menu">

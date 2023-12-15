@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "name": "Foodipes: Food recipes Blog",
+        "description": "A food blog with a number of simple and healthy recipes; and food blogging resources, where users can discover recipes, videos, and books from well-known chefs of the world.",
+        "url":"https://github.com/Chintan45/Foodipes",
+        "demo": "https://foodipes.netlify.app/",
+        "tags": ["react", "node", "express", "mongodb", "fullstack"]
+    },
+    {
+        "id": 2,
+        "name": "Crypto Price Tracker",
+        "description": "An android app that allows users to easily track the price of over 10,000 cryptocurrencies in real time",
+        "url":"https://github.com/Chintan45/CryptoPriceTracker",
+        "demo": "https://play.google.com/store/apps/details?id=com.yoapps.cryptoprice",
+        "tags": ["react-native", "redux", "RESTApi"]
+    },
+    {
+        "id": 3,
+        "name": "LMS",
+        "description": "A Library Management System that allows users to keep track of a list of books in the Library",
+        "url":"",
+        "tags": ["HTML", "CSS", "Bootstrap", "Java", "JSP", "MySQL"]
+    },
+    {
+        "id": 4,
+        "name": "vizIOT",
+        "description": "Dashboard for visualization of Trends in Multiple Network Attacks on IoT Devices",
+        "url":"",
+        "tags": ["react, d3.js", "visualization"]
+    },
+    {
+        "id": 5,
+        "name": "Disease Prediction System",
+        "description": "A system to help people to figure out the disease they might have based on the symptoms in their bodies",
+        "url":"",
+        "tags": ["machine-learning", "flask", "python"]
+    },
+    {
+        "id": 6,
+        "name": "Data Engineering Pipeline for Stock Market data analysis",
+        "description": "Implemented a data pipeline using Python for Stock Market data analysis with help of Apache Kafka, Amazon S3, Glue and Athena.",
+        "url":"https://github.com/Chintan45/Data-Engineering-Pipeline-for-Stock-Market-data-analysis",
+        "tags": ["data-engineering", "kafka", "python", "aws", "s3", "Amazon Athena"]
+    }
+]

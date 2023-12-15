@@ -4,7 +4,9 @@ import AOS from 'aos';
 
 
 import './Projects.css';
+import projects_data from './Projects.json';
 import ProjectCard from './ProjectCard';
+
 const Projects = () => {
     useEffect(() => {
         AOS.init({ duration: 800 })
@@ -21,11 +23,18 @@ const Projects = () => {
 
                 <div className="container con2">
                     <div className="row">
-                        <ProjectCard delay={200} imgClass={"i1"} />
-                        <ProjectCard delay={300} imgClass={"i2"} />
+                        {projects_data?.map((project, id) => (
+                            <ProjectCard
+                                key={id}
+                                info={project}
+                                delay={(id+2)*100}
+                                imgClass={`i${id+1}`}
+                            />
+                        ))}
+                        {/* <ProjectCard delay={300} imgClass={"i2"} />
                         <ProjectCard delay={400} imgClass={"i3"} />
                         <ProjectCard delay={500} imgClass={"i4"} />
-                        <ProjectCard delay={600} imgClass={"i5"} />
+                        <ProjectCard delay={600} imgClass={"i5"} /> */}
                     </div>
                 </div>
 

@@ -24,7 +24,7 @@ const About = () => {
                             I'm proficient in a wide range of programming languages, including HTML/CSS/JS, Python, React, and Node. As a developer, I'm committed to staying up-to-date with the latest trends and best practices in the industry, and I'm always looking for ways to improve my skills and knowledge.<br/><br/>
                             If you're looking for a skilled and dedicated developer to help bring your vision to life, look no further! I'm excited about the prospect of working with you and bringing my expertise to your project. Let's create something amazing together.<br/>
                         </p>
-                        <a href="https://drive.google.com/file/d/1iSB9_sfUFc1xCvIJf1ViRqWp0l1r4vOf/view?usp=sharing"
+                        <a href="https://drive.google.com/file/d/1x2UopXCzYOOwZGo9eJEshYclo7vwGAWz/view?usp=sharing"
                             rel="noopener noreferrer" data-aos="fade-up" data-aos-once="true" data-aos-delay="300" target="_blank"
                         >
                             <button className="dbtn" data-aos="fade-up"

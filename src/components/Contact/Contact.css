@@ -3,39 +3,124 @@
     padding: 50px;;
 }
 
-.contact > h2 {
-    font-weight: bold;
+.contact > div > h2 {
+    font-weight: 900;
     font-size: 32px;
 }
 .contact > p {
     color: #666;
 }
 
-.contact-box-container{
+.contact-form {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    /* max-width: 800px; */
+    padding-top: 20px;
+    /* border: 1px solid #000; */
+}
+  
+.contact-info {
+    flex-basis: 40%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+  
+.contact-info > h4 {
+    text-align: left;
+    margin-bottom: 10px;
+}
+  
+.contact-info > div {
     display: flex;
     flex-direction: row;
-    margin: 50px;
+    /* justify-content: space-between; */
 }
 
-.colum1, .colum2{
-    border: 1px solid;
-    width: 100%;
+.contact-info > div > span {
+    font-weight: bold;
+    margin-right: 15px;
 }
-.c-row{
+
+.contact-info a {
+    color: #000;
+}
+
+.contact-info a:hover {
+    color: #000;
+}
+
+.form-container {
+    /* flex-basis: 40%; */
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-self: flex-start;
+    justify-content: center;
 }
-.c-row > div > i{
-    width: 32px;
-    height: 32px;
-    padding: 8px;
+
+.form-group {
+    flex-basis: 50%;
+    margin-bottom: 20px;
+    padding: 0 10px;
 }
+
+label {
+    justify-content: flex-start;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    /* border: none; */
+    outline: none;
+    border: 1px solid #aaa ;
+    border-radius: 3px;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+textarea {
+    height: 100px;
+}
+
+input:focus, textarea:focus {
+    border: 1px solid #5242e687;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 80, 0.075), 0 0 8px #BAD9FB;
+}
+
+button[type="submit"] {
+    background-color: #5242e6;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #5242e6;
+    border-radius: 3px;
+    width: 100%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button[type="submit"]:hover {
+    color: #5242e6;
+    background-color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+    .form-container {
+        flex-basis: 50%;
+    }
+}
+  
+
 @media screen and (max-width: 960px) {
     .contact{
         padding: 50px 0;
     }
-    .contact-box-container{
+    /* .contact-box-container{
     flex-direction: column;
     margin: 0;
-    }
+    } */
 }

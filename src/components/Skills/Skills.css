@@ -9,21 +9,18 @@
     font-weight: 900;
     margin-left: 20%;
 }
-.skills-container{
-    margin-left: 130px;
-    margin-top: -110px;
-    margin-bottom: 50px;
-    text-align: left;
+.skills_box{
+    margin: -110px auto 50px auto;
 }
-.skills-container > h2 {
+.skills_box > h2 {
     font-weight: 900;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
-.skills-container > h5 {
+.skills_box > h5 {
     font-weight: 900;
     margin: 0;
 }
-.skills-container >  p {
+.skills_box >  p {
     text-align: justify;
     margin-bottom: 20px;
     color: #666;
@@ -34,16 +31,16 @@
     .l-skills {
       font-size: 6em;
     }
-    .skills-container {
+    .skills_box {
       margin-left: 0;
       margin-top: -68px;
       margin-left: 8%;
       width: 84%;
     }
-    .skills-container > h2 {
+    .skills_box > h2 {
         margin-bottom: 30px;
     }
-    .skills-container > p {
+    .skills_box > p {
       font-size: 14px;
     }
   }

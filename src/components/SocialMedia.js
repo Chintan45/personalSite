@@ -16,18 +16,25 @@ const SocialMedia = () => {
                 </li>
                 <li>
                     <div className="sbg">
-                        <a href="https://twitter.com/ChintanDobariy1" className="slink">
-                            <i className="fab fa-twitter"></i>
+                        <a href='https://www.linkedin.com/in/chintandobariya/' className="slink">
+                            <i className="fab fa-linkedin"></i>
                         </a>
                     </div>
                 </li>
                 <li>
                     <div className="sbg">
+                        <a href="https://twitter.com/ChintanDobariy1" className="slink">
+                            <i className="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </li>
+                {/* <li>
+                    <div className="sbg">
                         <a href='https://www.instagram.com/chintan_dobariya_9/' className="slink">
                             <i className="fab fa-instagram"></i>
                         </a>
                     </div>
-                </li>
+                </li> */}
             </ul>
         </div >
     );

@@ -7,7 +7,7 @@ const Portfolios = () => {
         AOS.init({ duration: 800 })
     }, [])
     return (
-        <div id="portfolio">
+        <div id="projects">
             <div className="bg">
                 <div className="container">
                     <div className="row porfolio-row">

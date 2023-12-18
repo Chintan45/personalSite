@@ -12,16 +12,10 @@
 }
 
 .contact-form {
-    display: flex;
-    /* flex-direction: row; */
-    justify-content: space-between;
-    /* max-width: 800px; */
     padding-top: 20px;
-    /* border: 1px solid #000; */
 }
   
 .contact-info {
-    flex-basis: 40%;
     text-align: left;
     margin-bottom: 20px;
 }
@@ -119,8 +113,4 @@ button[type="submit"]:hover {
     .contact{
         padding: 50px 0;
     }
-    /* .contact-box-container{
-    flex-direction: column;
-    margin: 0;
-    } */
 }

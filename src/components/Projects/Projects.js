@@ -31,10 +31,6 @@ const Projects = () => {
                                 imgClass={`i${id+1}`}
                             />
                         ))}
-                        {/* <ProjectCard delay={300} imgClass={"i2"} />
-                        <ProjectCard delay={400} imgClass={"i3"} />
-                        <ProjectCard delay={500} imgClass={"i4"} />
-                        <ProjectCard delay={600} imgClass={"i5"} /> */}
                     </div>
                 </div>
 

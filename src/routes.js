@@ -19,10 +19,15 @@ const AppRouter = () => {
     const [categories, setCategories] = React.useState(null);
 
     React.useEffect(() => {
-        axios.get(baseUrl).then(res => {
-            const temp = res.data.data.categories;
-            setData(temp);
-        });
+        try{
+            axios.get(baseUrl).then(res => {
+                const temp = res?.data?.data?.categories || null;
+                setData(temp);
+            })
+            .catch(e => e);
+        } catch(err){
+            console.log(err);
+        }
     }, [baseUrl])
 
     React.useEffect(() => {

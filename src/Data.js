@@ -8,14 +8,22 @@ import { API } from "./config/api";
 const Data = () => {
 
     const getDATA = async () => {
-        const baseURL = process.env.REACT_APP_DATA_API;
-        const tarURL = API + '/data';
-        const res = await axios.get(baseURL)
-
-        axios
-            .post(tarURL, {
-                "data": res.data,
-            })
+        try {
+            const baseURL = process.env.REACT_APP_DATA_API;
+            const tarURL = API + '/data';
+            const res = await axios.get(baseURL)
+                            .then(res => res)
+                            .catch(err => err)
+            
+            axios
+                .post(tarURL, {
+                    "data": res.data,
+                })
+                .then(res => res)
+                .catch(err => err)
+        } catch (err) {
+            console.log(err)
+        }
     }
 
     useEffect(() => {
